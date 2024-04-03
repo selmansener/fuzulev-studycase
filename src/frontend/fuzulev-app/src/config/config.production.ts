@@ -1,7 +1,7 @@
 import { EnvConfig } from "./shared";
 
 export const config: EnvConfig = {
-    baseUrl: "https://change_me.azurewebsites.net",
+    baseUrl: "https://fuzulev-api.azurewebsites.net",
     authConfig: {
         domain: "selman-personal.eu.auth0.com",
         clientId: "change_me",
