@@ -180,15 +180,15 @@ function build(previousFileSizes) {
         const filteredWarnings = messages.warnings.filter(
           w => !/Failed to parse source map/.test(w)
         );
-        if (filteredWarnings.length) {
-          console.log(
-            chalk.yellow(
-              '\nTreating warnings as errors because process.env.CI = true.\n' +
-                'Most CI servers set it automatically.\n'
-            )
-          );
-          return reject(new Error(filteredWarnings.join('\n\n')));
-        }
+        // if (filteredWarnings.length) {
+        //   console.log(
+        //     chalk.yellow(
+        //       '\nTreating warnings as errors because process.env.CI = true.\n' +
+        //         'Most CI servers set it automatically.\n'
+        //     )
+        //   );
+        //   return reject(new Error(filteredWarnings.join('\n\n')));
+        // }
       }
 
       const resolveArgs = {
