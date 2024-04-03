@@ -37,6 +37,7 @@ namespace FuzulEv.DataAccess.Extensions
                 {
                     // TODO: fix transaction issue and try to enable this feature
                     // sqlOptions.EnableRetryOnFailure();
+                    sqlOptions.UseCompatibilityLevel(120);
                 });
             });
 

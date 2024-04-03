@@ -1,5 +1,7 @@
 ﻿using FuzulEv.Domains.Base;
 using FuzulEv.Domains.Models.AccountDomain;
+using FuzulEv.Domains.Models.LocationDomain;
+using FuzulEv.Domains.Models.RealEstateDomain;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -29,6 +31,10 @@ namespace FuzulEv.DataAccess.Context
 
         public virtual DbSet<Account> Accounts { get; set; }
 
+        public virtual DbSet<Location> Locations { get; set; }
+
+        public virtual DbSet<RealEstate> RealEstates { get; set; }
+
         protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
         {
             configurationBuilder.Properties<string>().HaveMaxLength(500);
@@ -44,6 +50,8 @@ namespace FuzulEv.DataAccess.Context
             builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
             AddDeletedAtIsNullFilterToNonClusteredIndexes(builder, entityTypes);
+
+            builder.UseCollation("SQL_LATIN1_GENERAL_CP1_CS_AS");
 
             base.OnModelCreating(builder);
         }

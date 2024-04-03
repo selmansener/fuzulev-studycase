@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzulEv.Domains", "Domains\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzulEv.Business.Seed", "Business\FuzulEv.Business.Seed\FuzulEv.Business.Seed.csproj", "{ACB7883E-61D6-4D43-9359-267DE79D0CF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzulEv.Business.Utils", "Business\FuzulEv.Business.Utils\FuzulEv.Business.Utils.csproj", "{7C8270EC-2092-4455-9BC4-6D31D6544CC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{ACB7883E-61D6-4D43-9359-267DE79D0CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACB7883E-61D6-4D43-9359-267DE79D0CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACB7883E-61D6-4D43-9359-267DE79D0CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8270EC-2092-4455-9BC4-6D31D6544CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8270EC-2092-4455-9BC4-6D31D6544CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8270EC-2092-4455-9BC4-6D31D6544CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8270EC-2092-4455-9BC4-6D31D6544CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{C77CE958-A048-4B8B-BE42-BF3B9E6FCFF7} = {1F65D360-4969-4DEE-8F87-5BA9E0BDEBA6}
 		{34AB4CA7-85D1-49BB-A9ED-7F942290146C} = {62414545-7B0C-468E-A644-3F7435BEFC41}
 		{ACB7883E-61D6-4D43-9359-267DE79D0CF4} = {1F65D360-4969-4DEE-8F87-5BA9E0BDEBA6}
+		{7C8270EC-2092-4455-9BC4-6D31D6544CC4} = {1F65D360-4969-4DEE-8F87-5BA9E0BDEBA6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8803D8C7-AE90-4C98-B072-6B0E143A0838}

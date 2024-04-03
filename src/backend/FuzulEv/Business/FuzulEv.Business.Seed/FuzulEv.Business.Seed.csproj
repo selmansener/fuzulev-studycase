@@ -34,6 +34,7 @@
     <ProjectReference Include="..\..\Data\FuzulEv.DataAccess\FuzulEv.DataAccess.csproj" />
     <ProjectReference Include="..\..\Domains\FuzulEv.Domains\FuzulEv.Domains.csproj" />
     <ProjectReference Include="..\..\Infrastructure\FuzulEv.Infrastructure.Shared\FuzulEv.Infrastructure.Shared.csproj" />
+    <ProjectReference Include="..\FuzulEv.Business.Utils\FuzulEv.Business.Utils.csproj" />
   </ItemGroup>
 
 </Project>

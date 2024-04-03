@@ -102,11 +102,7 @@ function UserMenu(props: UserMenuProps) {
     </Menu>
 }
 
-const menuItems = [
-    {
-        name: "MenuItem.About",
-        route: "/about"
-    }
+const menuItems: any = [
 ]
 
 const container = window !== undefined ? () => window.document.body : undefined;
@@ -135,7 +131,7 @@ function SideBarMenu(props: SideBarMenuProps) {
                 '& .MuiDrawer-paper': { boxSizing: 'border-box', width: 240 },
             }}>
             <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-                <List>
+                {/* <List>
                     {menuItems.map((item, i) => (
                         <ListItem key={i} disablePadding>
                             <ListItemButton sx={{ textAlign: 'center' }}>
@@ -145,7 +141,7 @@ function SideBarMenu(props: SideBarMenuProps) {
                             </ListItemButton>
                         </ListItem>
                     ))}
-                </List>
+                </List> */}
             </Box>
         </Drawer>
     </nav>
@@ -251,9 +247,9 @@ export function Header(props: HeaderProps) {
                         display: { xs: 'none', sm: 'flex' },
                         flexDirection: "row"
                     }}>
-                        {menuItems.map((item, i) => (
+                        {/* {menuItems.map((item, i) => (
                             <MenuButton key={i} {...item} />
-                        ))}
+                        ))} */}
                     </Box>
                 </Grid>
                 <Grid item sx={{

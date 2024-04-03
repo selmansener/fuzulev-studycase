@@ -10,6 +10,7 @@
     "@fontsource/roboto": "^5.0.8",
     "@mui/icons-material": "^5.15.11",
     "@mui/material": "^5.15.11",
+    "@mui/x-data-grid": "^7.1.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@reduxjs/toolkit": "^2.2.1",
     "@svgr/webpack": "^5.5.0",
@@ -84,7 +85,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "api:generate": "set \"NODE_TLS_REJECT_UNAUTHORIZED=0\" && npx @rtk-query/codegen-openapi openapi-config.ts"
   },
   "eslintConfig": {
     "extends": [

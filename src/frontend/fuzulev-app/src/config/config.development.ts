@@ -2,18 +2,17 @@ import { EnvConfig } from "./shared";
 
 
 export const config: EnvConfig = {
-    baseUrl: "https://api.academyplus.com:7021",
+    baseUrl: "https://localhost:7021",
     authConfig: {
         domain: "selman-personal.eu.auth0.com",
-        clientId: "Fwa753w2BpErTcVb4bi1AGIUsUVh8aXG",
-        redirectUri: "https://academyplus.com:3000",
-        audience: "https://academyplus.com",
+        clientId: "change_me",
+        redirectUri: "https://change_me.com:3000",
+        audience: "https://change_me.com",
         scopes: [
             "openid", 
             "profile", 
             "email",
-            "offline_access",
-            "read:playlists"
+            "offline_access"
         ],
         defaultScopes: "openid profile email offline_access"
     },

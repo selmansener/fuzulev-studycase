@@ -1,18 +1,17 @@
 import { EnvConfig } from "./shared";
 
 export const config: EnvConfig = {
-    baseUrl: "https://academy-plus-temp-api.azurewebsites.net",
+    baseUrl: "https://change_me.azurewebsites.net",
     authConfig: {
         domain: "selman-personal.eu.auth0.com",
-        clientId: "Fwa753w2BpErTcVb4bi1AGIUsUVh8aXG",
-        redirectUri: "https://agreeable-hill-04b7c0d03.5.azurestaticapps.net",
-        audience: "https://academyplus.com",
+        clientId: "change_me",
+        redirectUri: "https://change_me.azurestaticapps.net",
+        audience: "https://change_me.com",
         scopes: [
             "openid", 
             "profile", 
             "email",
-            "offline_access",
-            "read:playlists"
+            "offline_access"
         ],
         defaultScopes: "openid profile email offline_access"
     },

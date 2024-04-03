@@ -1,5 +1,4 @@
 import { Box, Card, CardActionArea, CardContent, CardMedia, Container, Grid, Typography } from "@mui/material";
-import { useGetApiV1PlaylistsFeaturedQuery } from "../store/api";
 import { ImageSlider } from "../components/imageSlider/ImageSlider";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useEffect } from "react";
@@ -15,7 +14,6 @@ import { formatDuration, intervalToDuration } from "date-fns";
 
 export default function Main() {
     const { t } = useTranslation();
-    const { data } = useGetApiV1PlaylistsFeaturedQuery();
     const { user, getIdTokenClaims } = useAuth0();
     const navigate = useNavigate();
 
@@ -137,73 +135,6 @@ export default function Main() {
         </Grid>
         <Grid item xs={12}>
             <Container maxWidth="xl" disableGutters>
-                <Typography variant="h4" mb={4}>
-                    {t("Pages.Main.FeaturedPlaylists")}
-                </Typography>
-                <Grid container spacing={4}>
-                    {data && data.map((playlist, i) =>
-                        <Grid item key={i} xs={3}>
-                            <Box sx={{
-                                cursor: "pointer"
-                            }} onClick={() => {
-                                navigate(`/playlist/${playlist.id}`)
-                            }}>
-                                {playlist.thumbnailImageUrl && <Image src={playlist.thumbnailImageUrl} />}
-
-                            </Box>
-                            <Box sx={{
-                                p: 2,
-                                borderLeft: (theme) => `1px solid ${theme.palette.common.black}`,
-                                borderRight: (theme) => `1px solid ${theme.palette.common.black}`,
-                                borderBottom: (theme) => `1px solid ${theme.palette.common.black}`,
-                                borderBottomLeftRadius: "4px",
-                                borderBottomRightRadius: "4px",
-                            }}>
-                                <Box>
-                                    <Typography fontWeight="600" mt={2}>
-                                        {playlist.contentProducer}
-                                    </Typography>
-                                    <Typography >
-                                        {playlist.title}
-                                    </Typography>
-                                </Box>
-                                <Box sx={{
-                                    display: "flex",
-                                    flexDirection: "row",
-                                    justifyContent: "space-between",
-                                    mt: 2
-                                }}>
-                                    <Typography variant="caption">
-                                        <VideocamIcon fontSize="small" sx={{
-                                            verticalAlign: "bottom",
-                                            mr: 1
-                                        }} />
-                                        {t("Pages.Main.TotalVideoCount", {
-                                            videoCount: playlist.videoCount
-                                        })}
-                                    </Typography>
-                                    <Typography variant="caption">
-                                        <AlarmOnIcon fontSize="small" sx={{
-                                            verticalAlign: "bottom",
-                                            mr: 1
-                                        }} />
-                                        {t("Pages.Main.TotalDuration", {
-                                            duration: formatDuration(intervalToDuration({ start: 0, end: (playlist.durationInSeconds ? playlist.durationInSeconds * 1000 : 0) }), {
-                                                format: ["hours", "minutes"],
-                                                zero: true,
-                                                delimiter: ":",
-                                                locale: {
-                                                    formatDistance: (_token, count) => count.toString().padStart(2, "0")
-                                                }
-                                            })
-                                        })}
-                                    </Typography>
-                                </Box>
-                            </Box>
-
-                        </Grid>
-                    )}
-                </Grid>
             </Container>
         </Grid>
     </Grid>

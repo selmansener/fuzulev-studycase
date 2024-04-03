@@ -4,6 +4,7 @@ using FuzulEv.Infrastructure.Shared.Configurations;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using FuzulEv.Business.Seed;
+using FuzulEv.Business.CQRS.RealEstateDomain.Queries;
 
 namespace FuzulEv.Business.Extensions
 {
@@ -15,14 +16,13 @@ namespace FuzulEv.Business.Extensions
 
             services.AddMediatR(config =>
             {
-                //config.RegisterServicesFromAssemblyContaining<GetFeaturedPlaylists>();
+               config.RegisterServicesFromAssemblyContaining<RealEstatesQuery>();
             });
 
             //if (hostingEnvironment.IsDevelopment())
             //{
                 services.AddSeedServices(hostingEnvironment.EnvironmentName);
             //}
-            
             
             return services;
         }

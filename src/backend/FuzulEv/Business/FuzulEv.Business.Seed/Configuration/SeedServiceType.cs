@@ -3,8 +3,7 @@
     public enum SeedServiceType
     {
         Accounts = 0,
-        Playlists = 1,
-        FeaturedPlaylists = 2,
-        Videos = 3
+        Locations = 1,
+        RealEstates = 2
     }
 }

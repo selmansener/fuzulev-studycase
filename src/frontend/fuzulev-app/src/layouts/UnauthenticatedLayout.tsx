@@ -41,7 +41,7 @@ export function UnauthenticatedLayout() {
                 setThemeMode(newTheme);
             }} />
             <Box component={"main"} sx={{
-                mt: 12,
+                mt: 18,
                 minHeight: window.screen.height - 192,
                 mb: 8
             }}>

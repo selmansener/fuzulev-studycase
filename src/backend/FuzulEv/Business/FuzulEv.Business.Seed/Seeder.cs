@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
+using FuzulEv.Business.Utils.Extensions;
 using FuzulEv.Business.Seed.Configuration;
 using FuzulEv.Business.Seed.Data;
 using FuzulEv.Business.Seed.Services.Base;
@@ -176,6 +177,7 @@ namespace FuzulEv.Business.Seed
                 seedServices.Add(serviceType.Name.Replace("SeedService", string.Empty), serviceType);
             }
 
+            services.AddBusinessUtils();
             services.AddSingleton(seedServices);
             services.AddSingleton(new SeedCache());
             services.AddScoped<ISeeder, Seeder>();
