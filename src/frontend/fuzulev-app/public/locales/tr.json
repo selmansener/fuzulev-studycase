@@ -1,0 +1,134 @@
+{
+    "Helmet": {
+        "about": "Hakkımızda",
+        "trainings": "Eğitimlerimiz",
+        "academic-counselors": "Akademik Danışmanlarımız",
+        "instructors": "Eğitmenlerimiz",
+        "academic-studies": "Akademik Çalışmalarımız",
+        "projects": "Projelerimiz",
+        "teachers-camp": "Öğretmen Kampları",
+        "congresses": "Kongreler",
+        "youtube-live": "YouTube Canlı Yayın",
+        "contact": "İletişim"
+    },
+    "Auth": {
+        "Login": "Giriş Yap / Hesap Oluştur",
+        "Logout": "Çıkış Yap",
+        "VerificationMessage": "Lütfen E-Posta adresinize gelen mesajı kontrol edin ve hesabınızı doğrulayın."
+    },
+    "MenuItem": {
+        "About": "Hakkımızda",
+        "Trainings": "Eğitimlerimiz",
+        "AcademicCounselors": "Akademik Danışmanlarımız",
+        "Instructors": "Eğitmenlerimiz",
+        "AcademicStudies": "Akademik Çalışmalarımız",
+        "Projects": "Projelerimiz",
+        "TeachersCamp": "Öğretmen Kampları",
+        "Congresses": "Kongreler",
+        "YouTubeLive": "YouTube Canlı Yayın",
+        "Contact": "İletişim"
+    },
+    "FormValidation": {
+        "RequiredField": "*Gerekli Alan",
+        "MinCharacters": "*Lütfen başında 0 olmadan 10 haneli bir telefon numarası giriniz",
+        "MustBeInteger": "*Lütfen bir tamsayı giriniz",
+        "MustBeGreaterThanZero": "*Lütfen sıfırdan büyük bir tamsayı giriniz",
+        "MustBeNumber": "*Lütfen bir sayı giriniz",
+        "Email": "*Lütfen geçerli bir email adresi giriniz.",
+        "CardNumber": "*Lütfen geçerli bir kart numarası giriniz",
+        "OverMaxCharLimit": "*Maksimum karakter sayısını aştınız",
+        "InvalidTaxNumber": "Geçersiz Vergi No",
+        "InvalidIdNumber": "Geçersiz TC Kimlik No"
+    },
+    "Generic": {
+        "Forms": {
+            "Other": "Diğer",
+            "Message": "Mesajınız",
+            "Select": "Seçiniz",
+            "Close": "Kapat",
+            "Submit": "Kaydet",
+            "Edit": "Düzenle",
+            "Success": "İşlem başarılı!",
+            "Error": "Beklenmedik bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.",
+            "Send": "Gönder",
+            "SentMessageSuccess": "Mesajınız başarıyla gönderildi!",
+            "SentMessageFailed": "Mesajınız gönderilirken bir hata oluştu.",
+            "CareersApply": "Başvur",
+            "SelectFile": "Dosya Seç",
+            "FilesSelected": "{{count}} dosya seçildi.",
+            "Delete": "Kaldır",
+            "CharactersLeft": "karakter kaldı",
+            "Add": "Ekle",
+            "UnexpectedError": "Beklenmedik bir hatayla karşılaştık."
+        },
+        "PersonalInfo": {
+            "Address": "Adres",
+            "IdNumber": "TC Kimlik Numarası",
+            "FullName": "Ad Soyad",
+            "FirstName": "Ad",
+            "LastName": "Soyad",
+            "BirthDate": "Doğum Tarihi",
+            "PhoneNumber": "Telefon",
+            "Department": "Departman",
+            "JobTitle": "Pozisyon/Görev",
+            "Job": "Mesleğin Nedir? (Opsiyonel)",
+            "Gender": {
+                "Gender": "Cinsiyet",
+                "Male": "Erkek",
+                "Female": "Kadın"
+            },
+            "Email": "E-Posta"
+        },
+        "Address": {
+            "FirstName": "Ad",
+            "LastName": "Soyad",
+            "Phone": "Telefon",
+            "City": "İl",
+            "District": "İlçe",
+            "Address": "Adres",
+            "ZipCode": "Posta Kodu (Opsiyonel)"
+        }
+    },
+    "Pages": {
+        "Main": {
+            "Cards": {
+                "FirstTitle": "Çeşitli Ufukları Keşfedin: Çeşitli İçerik Dünyasına Açılan Kapınız",
+                "FirstDescription": "Kapsamlı bir konu yelpazesini kapsayan içeriğin geniş bir yelpazesinde bir yolculuğa çıkın. Büyüleyici makalelerden ve içgörülü bloglardan eğlenceli videolara ve düşündürücü podcast'lere kadar, platformumuz herkes için bir şeyler sunar. Bize katılın ve keşfedilmeyi bekleyen içeriğin zenginliğini keşfedin!",
+                "SecondTitle": "Aylık Zevkleri Açın: Taze Video İçerikleri Sizleri Bekliyor!",
+                "SecondDescription": "Aylık video içerik yayınlarımızla önde kalın! Sürükleyici belgesellerden heyecan verici dizilere kadar, her zaman kendinizi kaptıracak bir şeyler var. Şimdi abone olun ve en son eğlenceyi kaçırmayın!",
+                "ThirdTitle": "Eğitim Maceramıza Katılın: Öğrenmenin Sınırları Olmadığı Yerde",
+                "ThirdDescription": "Sonsuz öğrenme olasılıklarının bir yolculuğuna çıkın! Bugün canlı eğitim topluluğumuza katılın ve bilgi, işbirliği ve büyüme dolu bir dünyayı açın. Birlikte, eğitimin gücüyle daha parlak bir gelecek şekillendirelim!"
+            },
+            "FeaturedPlaylists": "Öne Çıkan Eğitimler",
+            "TotalVideoCount": "Toplam Video: {{videoCount}}",
+            "TotalDuration": "Süre: {{duration}}"
+        },
+        "About": {
+            "Title": "Hakkımızda",
+            "Part1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie orci sed facilisis viverra. Curabitur fermentum augue at nisi laoreet dapibus a nec dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ut dictum neque. Nulla facilisi. Nulla facilisi. Sed fermentum lobortis ultrices. Integer interdum, ex vel dignissim vulputate, dolor lorem efficitur est, id finibus lectus diam a dui.",
+            "Part2": "Quisque commodo id leo quis pretium. Praesent a urna velit. Ut posuere tincidunt suscipit. Nam dapibus sem et aliquet sollicitudin. Aliquam in mauris vel nunc consequat consequat. Duis ac massa facilisis augue varius posuere sed id metus. Integer quis dictum ipsum. Cras euismod sollicitudin dui ac interdum.",
+            "Part3": "Pellentesque fringilla accumsan augue, et pretium ante tincidunt sit amet. Nunc eget urna elit. Etiam justo mauris, eleifend ut sollicitudin id, volutpat vitae augue. Integer et mi ut massa feugiat interdum. Curabitur aliquet diam sit amet nunc molestie feugiat. Curabitur luctus risus in placerat convallis. Integer sed sem risus. Aenean vitae ante arcu. Phasellus nec eros vel leo tempus imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus consectetur diam ut nunc ultricies ultrices. Quisque non iaculis magna. Donec dui turpis, viverra convallis sem eu, aliquet tincidunt ipsum.",
+            "Part4": "Etiam suscipit risus quis tempor aliquet. Duis sed augue in diam maximus facilisis nec sed nulla. Nunc eu rutrum nisl, sit amet vestibulum nulla. Proin mattis accumsan neque quis vestibulum. Praesent sagittis a est vitae rutrum. Maecenas sed interdum libero, in molestie lectus. Aliquam dolor risus, dignissim vitae tempus vel, hendrerit vel nisi. Sed blandit et purus vel scelerisque. Praesent fermentum lectus vel nisi lobortis, quis mollis justo varius. Proin ac vestibulum lacus.",
+            "Part5": "Pellentesque et felis elit. Sed vel interdum arcu. Suspendisse potenti. Etiam at turpis ac magna pulvinar ullamcorper ullamcorper ut lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent suscipit fringilla tempor. Aenean ut dictum orci, ut semper dolor. Vivamus eu tempus purus. Aliquam ac malesuada ipsum. Suspendisse eu nibh et purus rutrum pulvinar. Proin sed tellus quis sem scelerisque vestibulum. Sed varius sapien justo, id fermentum lorem euismod eget. Nam fermentum odio vel quam porttitor ornare. Praesent et orci in ante ullamcorper ullamcorper.",
+            "Part6": "Fusce pretium erat at augue fringilla, at placerat mauris tempor. Suspendisse potenti. Maecenas eu nisl luctus, vestibulum eros vitae, sodales ipsum. Pellentesque ex sapien, tincidunt vitae turpis id, blandit vehicula ante. Sed vitae interdum leo, sed facilisis elit. Donec odio sem, hendrerit egestas urna a, rhoncus fermentum est. Etiam porta mauris ac ante viverra, non efficitur est suscipit. Nullam eget suscipit odio. Nullam sit amet ligula viverra, tempor erat vel, tempor turpis. Nunc rutrum, ante at sollicitudin finibus, lectus elit gravida lectus, ac bibendum urna eros in felis.",
+            "Part7": "Aliquam erat volutpat. Fusce et euismod tellus. Nam nec semper sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin eros neque, pellentesque ut mauris non, fermentum fringilla mauris. Nunc dictum velit sapien, nec molestie ante ultrices vitae. Duis sed massa arcu. Aenean turpis nisl, elementum quis leo euismod, tristique malesuada nulla. Curabitur bibendum, metus in molestie feugiat, felis est facilisis tortor, vel pretium purus diam id est. Sed luctus mattis est et viverra. Donec facilisis purus eget lobortis condimentum. Proin ut accumsan est. Nullam congue facilisis magna, a dictum risus. Donec auctor laoreet mollis. Cras in urna vitae turpis venenatis sagittis.",
+            "Part8": "Vestibulum eleifend justo ac justo eleifend, in pellentesque ipsum consequat. Sed in sem nec leo pellentesque consectetur. Pellentesque sapien arcu, efficitur sit amet metus vel, posuere accumsan augue. Suspendisse eget ipsum vitae velit tincidunt viverra eu non mi. Sed nibh ligula, malesuada quis enim quis, volutpat dapibus ipsum. Nullam eu eros dolor. Nullam ultrices, nunc eu finibus laoreet, libero tellus dictum nibh, quis fermentum erat lectus ut sem. Phasellus quis sapien vel arcu condimentum convallis. Donec placerat blandit mauris in auctor. Suspendisse eleifend lectus non odio dapibus, quis feugiat ligula fermentum. Vivamus posuere ante vitae sagittis tincidunt. Nam augue nulla, porta vel eros venenatis, dapibus auctor lectus. Curabitur laoreet quis quam a feugiat. Nunc volutpat porttitor tincidunt. Aenean dapibus iaculis dignissim.",
+            "Part9": "Ut eget elementum enim. Ut consectetur justo lacus, non pellentesque massa scelerisque blandit. Etiam placerat nisi non dolor cursus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam et commodo erat. Quisque at vehicula est. Donec elementum neque diam, quis tristique nibh luctus non. Nullam ut justo ut nulla porta efficitur eu ac purus. Quisque bibendum interdum lectus pretium feugiat. Etiam id turpis faucibus, facilisis ante vitae, tincidunt est.",
+            "Part10": "Sed at orci vel augue ultrices posuere. Pellentesque non dolor molestie, ultricies neque non, consequat nisi. Nunc id ultrices dui. Proin imperdiet eu augue vitae dictum. Vivamus blandit faucibus varius. Nam eget volutpat lorem. Pellentesque nec luctus justo. Mauris venenatis pellentesque nunc, malesuada aliquam velit imperdiet vitae. In hac habitasse platea dictumst. Aliquam dolor diam, pulvinar id dignissim quis, maximus at purus. Cras nec pulvinar erat, sit amet porttitor dui. Aliquam in nisi ut lacus molestie mollis sed at purus. Cras vel ipsum pharetra, elementum arcu nec, porttitor nibh."
+        },
+        "AcademicCounselors": {
+            "Title": "Akademik Danışmanlarımız",
+            "SalesPhrase": "Yolun her adımında sizi başarıya doğru yönlendiren, kendini işine adamış akademik danışmanlardan oluşan ekibimizle tüm potansiyelinizi ortaya çıkarın. Eğitim yolculuğunuza göre kişiselleştirilmiş destekle öğrenme deneyiminizi geliştirin."
+        },
+        "Contact": {
+            "Title": "İletişim",
+            "GetInTouch": "Bizimle iletişime geçin",
+            "Description": "Bizimle çalışmak ister misiniz? Bir sorunuz mu var? Sizden haber almayı çok isteriz. Aşağıdaki formu kullanarak bize ulaşın veya doğrudan hello@example.com adresinden bize e-posta gönderin."
+        },
+        "NotFound": {
+            "Message": "Aradığınız sayfayı bulamadık ya da kaybettik.",
+            "ReturnToHome": "Ana sayfa",
+            "ReturnToPreviousPage": "Geri dön"
+        }
+    }
+}
